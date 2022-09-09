@@ -230,7 +230,7 @@ li::marker {
 
 .device:hover {
   box-shadow: 0 40px 34px -20px #00000039;
-  transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -2px, 0);
 }
 
 .device img {
@@ -265,7 +265,7 @@ li::marker {
 }
 
 .app-store a img:hover {
-  transform: translate3d(0, -10px, 0);
+  transform: translate3d(0, -2px, 0);
   box-shadow: 0 40px 34px -20px #00000039;
 }
 
