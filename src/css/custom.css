@@ -116,6 +116,12 @@ a.menu__link:hover {
 
 .pagination-nav__link:hover {
   background-color: var(--ifm-color-bluetint);
+  box-shadow: 0 40px 34px -20px #00000039;
+}
+
+.pagination-nav__link:active, .device a:active {
+  transform: scale3d(.95,.95,1);
+  box-shadow: 0 20px 14px -10px #00000039;
 }
 
 .flex {
