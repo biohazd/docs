@@ -195,6 +195,10 @@ a.block {
   cursor: pointer;
 }
 
+li::marker {
+  font-weight: 900;
+}
+
 .main-wrapper {
   background: var(--background-color);
 }
@@ -230,6 +234,16 @@ a.block {
 
 .device p {
   margin-bottom: 0;
+  white-space: pre-wrap;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+.device.no-shadow:hover {
+  box-shadow: none;
+  transform: none;
 }
 
 .device .device-info {
@@ -238,6 +252,15 @@ a.block {
   position: absolute;
   bottom: 0;
   background: var(--ifm-menu-color-background-active);
+}
+
+.app-store a img {
+  transition: all .3s ease-out;
+}
+
+.app-store a img:hover {
+  transform: translate3d(0, -10px, 0);
+  box-shadow: 0 40px 34px -20px #00000039;
 }
 
 .explanation {
